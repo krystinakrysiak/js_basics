@@ -4,13 +4,32 @@ function door(doorNumber) {
   if(doorNumber == 3) alert("You Win The Third Prize")
 }
 
+var a = 2
+var b = 6
 
-
-function add(first, second) {
-  console.log(first + second);
+function add(a, b) {
+  console.log(a + b);
 }
 
-ramones = ["Joey", "Johnny", "Dee Dee", "Marky"]
-for(var i = 0; i< ramones.length; i++){
-  console.log(ramones[i])
+add(a, b)
+
+var ramones = [["Johnny", "Joey"], ["Dee Dee", "Marky"]]
+  console.log(ramones[1][1])
+
+
+
+200 > 100;
+
+if(200>100){
+  console.log("This value is greater than 100")
 }
+
+if(200<100){
+  console.log("This value is less than 100")
+}
+
+function alertName(somePersonsName) {
+  return alert(somePersonsName);
+}
+
+alertName("Steve")
